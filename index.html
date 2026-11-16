@@ -1030,6 +1030,10 @@
         <input type="hidden"
           name="_subject"
           value="New Message From My Professional Website">
+        
+<input type="hidden"
+       name="_url"
+       value="https://byakikahezironjuma.github.io/">
 
         <input type="hidden"
           name="_captcha"
@@ -1038,6 +1042,12 @@
         <input type="hidden"
           name="_template"
           value="table">
+        
+<input type="text"
+       name="_honey"
+       style="display:none"
+       tabindex="-1"
+       autocomplete="off">
 
         <label for="visitorName">Full Name *</label>
         <input
@@ -1046,13 +1056,14 @@
           name="name"
           placeholder="Your full name"
           required>
-
-        <label for="visitorEmail">Email Address</label>
-        <input
-          id="visitorEmail"
-          type="email"
-          name="email"
-          placeholder="Your email address">
+        
+<label for="visitorEmail">Email Address *</label>
+<input
+  id="visitorEmail"
+  type="email"
+  name="email"
+  placeholder="Your email address"
+  required>
 
         <label for="visitorPhone">Phone Number</label>
         <input
@@ -1070,8 +1081,8 @@
           required></textarea>
 
         <p class="contact-note">
-          Please provide at least an email address
-          or phone number so I can respond.
+          Your email address will only be used
+  to respond to your enquiry.
         </p>
 
         <button type="submit" class="contact-submit">
