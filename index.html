@@ -42,6 +42,17 @@
 </script>
 
   <style>
+    .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
     :root {
       --bg: #071426;
       --card: #101f36;
@@ -602,11 +613,14 @@
           Electrical Engineering & Power Systems
         </div>
 
-        <h1>
-          <span class="greeting" id="animatedGreeting">Hello,</span>
-          I'm<br>
-          <span class="highlight">Byakika Heziron Juma.</span>
-        </h1>
+<h1>
+  <span class="greeting" id="animatedGreeting">Hello,</span>
+  I'm<br>
+  <span class="highlight">Byakika Heziron Juma.</span>
+  <span class="sr-only">
+    Electrical Engineer and Power Systems Researcher in Uganda
+  </span>
+</h1>
 
         <h2>
           Electrical Engineer and Power Systems Researcher
